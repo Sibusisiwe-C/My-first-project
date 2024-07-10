@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XoXo Gossip Girl</title>
+    <style>
+      body {
+        background: radial-gradient(
+          329px at 3.1% 9.3%,
+          rgb(251, 204, 235) 28.1%,
+          rgba(221, 221, 221, 0.15) 100.7%
+        );
+      }
+      h1 {
+        color: rgb(223, 22, 156);
+        text-align: center;
+        font-family: dancingscript;
+      }
+      h2 {
+        text-align: center;
+        color: pink;
+        font-weight: 300;
+      }
+      h3 {
+        text-align: center;
+        color: pink;
+      }
+      p {
+        text-align: center;
+        font-size: larger;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+
+        width: 500px;
+      }
+
+      .more {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.5;
+        text-decoration: none;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: rgb(223, 22, 156);
+        background: pink;
+        font-size: 20;
+        padding: 15px 30px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        border: transparent;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        cursor: pointer;
+        background: rgb(223, 22, 156);
+        color: pink;
+      }
+      div {text-align: center;}
+      span{text-align: center;
+    color: rgb(223, 22, 156);}
+    </style>
+  </head>
+  <body>
+    <h1>Gossip Girl</h1>
+    <h2><em>You heard it here first!</em></h2>
+    <br />
+    <h3>
+      The Real Housewives of Johannesburg will not be returning for a fourth
+      season
+    </h3>
+    <p>
+      The Real Housewives of Johannesburg has come to an abrupt halt. After
+      three seasons of serving up scandalous drama, fabulous fashion and
+      jaw-dropping moments the reality show has been cancelled. Fans will no
+      longer see their faves stirring the pot while sipping champagne on their
+      screens. Videos of the reality star and businesswoman Christall Kay and
+      cast members Gugu Khathi and Brinette Seopela fighting have emerged.
+      Videos show heated arguments and catfights between the cast which is what
+      led to the canning of season three of Real Housewives of Johannesburg.
+    </p>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/039/original/images.jpeg?1718399493"
+      alt="women arguing"
+    />
+    <a
+      href="https://sundayworld.co.za/news/real-housewives-of-johannesburg-star-christall-kay-seeks-legal-advice-after-attack/"
+     target="_blank" class="more"
+    >
+      Find out more about the fight here!</a
+    >
+    <hr />
+    <p><strong>On a lighter note...</strong></p>
+    <h3>
+      Kabza De Small delivers a remarkable performance at Redbull Symphonic with
+      Ofentse Pitse and the Symphonic Orchestra
+    </h3>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/041/original/images_%281%29.jpeg?1718399911"
+    />
+    <p>
+      After weeks of anticipation, the RedBull Symphonic featuring Kabza De
+      Small with Ofentse Pitse and the Symphonic Orchestra took place and it was
+      a concert where some of the biggest amapiano songs were performed live.
+      When tickets for the Red Bull Symphonic were announced within five hours
+      of the initial announcement they were sold out - a clear indication of how
+      fans and the music industry were ready to support the King of amapiano.
+    </p>
+<br/>
+<p>Thank you for taking your time and reading our blog. <div>Don't forget to press the button bellow to become a <span>GOSSIPGIRL</span></div></p>
+
+    <button>Become a Gossip Girl</button>
+    <p>Coded by Sibusisiwe Cumbi</p>
+  </body>
+  <script>
+    function join(){let firstName = prompt("What is your name?");
+        let email = prompt("What's your email address?");
+        let age = prompt ("How old are you?");
+        if (age >= 18) {alert("Heyy there, " +" " + firstName+ " "+ "We'll be sending you hot gossip soon, check your emails.");}
+        else {alert("We are sorry," + " "+ firstName +" " + "you need to be atleast 18 years to be a GossipGirl.")}
+    }
+    let button = document.querySelector("button");
+    button.addEventListener("click", join);
+  </script>
+</html>
